@@ -3,6 +3,7 @@ import re
 
 #删除文件夹中相同的图片
 file_path = r'E:\Desktop\游戏截图\PS4\SHARE\Screenshots\FINAL FANTASY VII REMAKE'
+#这条路径依据存放图片的文件夹位置而定
 def delete_same_images(path):
     filenames = os.listdir(path)
     count = 0
