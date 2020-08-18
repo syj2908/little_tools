@@ -19,5 +19,5 @@ def delete_same_images(path):
         print('No same image !')
 
 
-if __name__== '__main__':
+if __name__ == '__main__':
     delete_same_images(file_path)
