@@ -18,4 +18,7 @@ some useful tools to make life easiler:)
 
 总体想法就是基于python+ChromeDriver来模拟人的登录、填报行为，整体开发过程比较顺利，但是中间遇到了嵌套iframe的问题导致一开始有一部分按钮用xpath找不到。
 
-今天填报时间已经过了，先把代码push上来，明天再验证一下。
+经过实际测试，代码可用~
+
+配置要求：python3.8+selenium+chrome浏览器+对应版本的chromedriver
+
